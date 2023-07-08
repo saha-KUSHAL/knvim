@@ -18,4 +18,7 @@ require("nvim-tree").setup({
   },
 })
 vim.g.nvim_tree_indent_markers=1
-
+vim.cmd('hi Normal ctermbg=NONE')
+vim.cmd('hi NonText ctermbg=NONE')
+vim.cmd('hi Normal guibg=NONE')
+vim.cmd('hi NonText guibg=NONE')

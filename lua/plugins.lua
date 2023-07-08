@@ -34,4 +34,5 @@ use {
         require'alpha'.setup(require'alpha.themes.dashboard'.config)
     end
 }
+use('akinsho/toggleterm.nvim')
 end)
