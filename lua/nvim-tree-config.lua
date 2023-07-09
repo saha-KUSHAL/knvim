@@ -16,9 +16,11 @@ require("nvim-tree").setup({
   filters = {
     dotfiles = true,
   },
+  actions = {
+    open_file = {
+      quit_on_open = true,
+    },
+  },
 })
 vim.g.nvim_tree_indent_markers=1
-vim.cmd('hi Normal ctermbg=NONE')
-vim.cmd('hi NonText ctermbg=NONE')
-vim.cmd('hi Normal guibg=NONE')
-vim.cmd('hi NonText guibg=NONE')
+vim.api.nvim_set_hl(0,"NvimTreeNormalNC",{bg="none"})

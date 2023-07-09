@@ -1,5 +1,6 @@
 local actions = require('telescope.actions')
-require('telescope').setup {
+local telescope =require ("telescope")
+telescope.setup {
   defaults = {
     layout_config = {
       width = 0.75,
@@ -48,3 +49,9 @@ require('telescope').setup {
     }
   }
 }
+vim.api.nvim_set_hl(0,"TelescopeNormal",{bg="none"})
+-- Set the transparency for Telescope borders
+vim.cmd('highlight TelescopeBorder guibg=NONE')
+vim.cmd('highlight TelescopePromptBorder guibg=NONE')
+vim.cmd('highlight TelescopeResultsBorder guibg=NONE')
+vim.cmd('highlight TelescopeNormalFloat guibg=NONE')

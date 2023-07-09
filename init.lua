@@ -1,3 +1,10 @@
+-- Make sure to require Packer
+local packer = require('packer')
+
+-- Initialize Packer
+packer.init({
+  -- Packer configuration options
+})
 require('plugins')
 
 --colour scheme
@@ -29,4 +36,11 @@ require('which-key-config')
 
 --fuzzy search
 require('telescope-config')
+
+--terminal
+require('toggleterm-config')
+
+--indent lines
+require('blankline-config')
+
 
