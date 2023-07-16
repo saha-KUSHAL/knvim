@@ -43,4 +43,3 @@ require('toggleterm-config')
 --indent lines
 require('blankline-config')
 
-

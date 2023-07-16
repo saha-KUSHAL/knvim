@@ -37,13 +37,6 @@ use {
 -- or                            , branch = '0.1.x',
   requires = { {'nvim-lua/plenary.nvim'} }
 }
-use {
-    'saha-KUSHAL/alpha-nvim',
-    requires = { 'nvim-tree/nvim-web-devicons' },
-    config = function ()
-        require'alpha'.setup(require'alpha.themes.dashboard'.config)
-    end
-}
 use('akinsho/toggleterm.nvim')
 use 'lukas-reineke/indent-blankline.nvim'
 use { "kkharji/sqlite.lua" }
@@ -53,5 +46,10 @@ use {
     require"telescope".load_extension("frecency")
   end,
   requires = {"kkharji/sqlite.lua"}
+}
+use 'wakatime/vim-wakatime'
+use {
+    "saha-KUSHAL/minintro.nvim",
+    config = function() require("minintro").setup({ color = "#98c379" }) end
 }
 end)
