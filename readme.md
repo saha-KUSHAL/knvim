@@ -1,4 +1,4 @@
-![Header](https://github.com/saha-KUSHAL/knvim/assets/99195543/550754f7-18b7-4a16-a4ac-52544af48a3a)
+![header](https://github.com/saha-KUSHAL/knvim/assets/99195543/a9886ef1-f126-4f98-86a8-51f7651335d0)
 
 ## Introduction
 Knvim is  a config for NeoVim, with a goal of providing an IDE like environment for stduents. It's focuses on aspects like Syntax-Highlighting, File Tree, Terminal, Fuzzy-Search etc. It doesn't include Auto-Completation, Spell Checking,formatting, Auto git records or anything which can harm essential practices of a students.
